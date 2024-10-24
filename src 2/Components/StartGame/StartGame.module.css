@@ -1,0 +1,56 @@
+.Container {
+    max-width: 1180px;
+    font-weight: 900;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.content {
+    font-size: 96px;
+    grid-column: 3;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.button {
+    height: 44px;
+    width: 220px;
+    background: #000000;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+    border: 1px solid transparent;
+    transition: 0.4s background ease-in;
+    grid-row: 3;
+    grid-column: 7/9;
+
+    &:hover {
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        transition: 0.3s background ease-in;
+
+    }
+
+}
+
+.display_part {
+    display: grid;
+    grid-template-columns: 100px 100px 10px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.images_container{
+    background-image: url(./Images/dicesss.png);
+    background-size: cover;
+    height: 600px;
+    width: 800px;
+   
+}
