@@ -1,0 +1,28 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.score_card{
+    max-width: 200px;
+    /* background-color: rebeccapurple; */
+    margin: 50px;
+}
+.score_card h1 {
+    font-size: 130px;
+    width: 200px;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+    line-height: 120px;
+
+}
+
+.score_card p {
+    width: 200px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+
+}
